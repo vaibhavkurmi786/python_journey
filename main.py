@@ -9,3 +9,7 @@ each and every line in a single go
 
 
 """
+
+
+name = 'vaibhav'
+age  = 20
