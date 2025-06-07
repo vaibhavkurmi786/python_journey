@@ -10,6 +10,17 @@ each and every line in a single go
 
 """
 
+# by the way the python does not support multi line comments the above that we wrote is a docstring
 
-name = 'vaibhav'
-age  = 20
+# name variable with value as vaibhav
+name = "vaibhav"
+
+# age variable with value as 20
+age = 20
+
+
+# important points to remember while creating variables
+
+# 1 can not use number at the start while creating a variable name (but can be used at the last)
+# 2 can not use space at the starting or in between while creating a variable name (but can be used at the last as its not counted by python because its ignored at the execution time)
+# 3 can not use special characters at the starting or in between while creating a variable
