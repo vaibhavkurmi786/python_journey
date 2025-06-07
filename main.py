@@ -24,3 +24,12 @@ age = 20
 # 1 can not use number at the start while creating a variable name (but can be used at the last)
 # 2 can not use space at the starting or in between while creating a variable name (but can be used at the last as its not counted by python because its ignored at the execution time)
 # 3 can not use special characters at the starting or in between while creating a variable
+
+
+# naming convention 
+
+# there are 3 ways to name a variable 
+# 1) Camel Case = pythonLanguage
+# 2) Pascal Case = Python Language
+# 3) Snake Case = python_language 
+
