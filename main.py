@@ -26,10 +26,20 @@ age = 20
 # 3 can not use special characters at the starting or in between while creating a variable
 
 
-# naming convention 
+# NAMING CONVENTION 
 
 # there are 3 ways to name a variable 
 # 1) Camel Case = pythonLanguage
 # 2) Pascal Case = Python Language
 # 3) Snake Case = python_language 
+
+# DATATYPES
+# 1) NUMBERS
+# 1.A) INT  => any number from -infinity to +infinity that doesn't contain a decimal is an integer value (ex)=> 786
+# 1.B) FLOAT => any number that has a decimal in it ofr can be written in p/q format is a float value  (ex)=> 2.0
+# 1.C) COMPLEX => any number written with j at its last is a complex value (ex)=> 2j
+
+# 2) STRINGS  => anything that is written between "" or '' is called a string (ex)=> 'vaibhav', "kurmi
+# 3) BOOLEAN  => True or False (ex)=> b = True, f= False
+
 
