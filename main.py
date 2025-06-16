@@ -43,3 +43,7 @@ age = 20
 # 3) BOOLEAN  => True or False (ex)=> b = True, f= False
 
 
+# in strings if we want to know the unicode of any character we use the method (ord) and to convert any number to character use use the method (chr) (ex)=> ord('a')
+
+print(ord('a'))
+print(chr(121))
