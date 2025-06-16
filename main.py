@@ -45,5 +45,30 @@ age = 20
 
 # in strings if we want to know the unicode of any character we use the method (ord) and to convert any number to character use use the method (chr) (ex)=> ord('a')
 
-print(ord('a'))
-print(chr(121))
+# print(ord('a'))
+# print(chr(121))
+
+
+# String Indexing
+# this means we can access any element of the string 
+# there are two types of string indexing
+# 1) positive
+# 2) negative
+
+str = 'vaibhav kurmi'
+# print(str[6]) this is the (ex) of positive indexing
+# print(str[-3]) this is the (ex) of negative indexing
+
+
+# String Slicing
+
+# the syntax for slicing a string is =>  [starting point : ending point : how many jumps to make while slicing]
+
+# print(str[2:6:1])
+# print(str[:6:1])
+# print(str[2::1])
+# print(str[::])
+
+# if we leave the start point and define the rest two point that means the starting point is from the start of the string
+# if we leave the end point and define the rest two point that means the end point is till the end of the string
+# if we leave the all point and just maintain the syntax that means the string will be sliced from the start till the end and by default the jump is always 1
