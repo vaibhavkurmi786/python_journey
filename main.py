@@ -49,19 +49,18 @@ age = 20
 # print(chr(121))
 
 
-# String Indexing
+# STRING INDEXING
 # this means we can access any element of the string 
 # there are two types of string indexing
 # 1) positive
 # 2) negative
 
-str = 'vaibhav kurmi'
+# str = 'vaibhav kurmi'
 # print(str[6]) this is the (ex) of positive indexing
 # print(str[-3]) this is the (ex) of negative indexing
 
 
-# String Slicing
-
+# STRING SLICING
 # the syntax for slicing a string is =>  [starting point : ending point : how many jumps to make while slicing]
 
 # print(str[2:6:1])
@@ -72,3 +71,64 @@ str = 'vaibhav kurmi'
 # if we leave the start point and define the rest two point that means the starting point is from the start of the string
 # if we leave the end point and define the rest two point that means the end point is till the end of the string
 # if we leave the all point and just maintain the syntax that means the string will be sliced from the start till the end and by default the jump is always 1
+
+
+# TYPE CONVERSION
+# There are four types of type conversion
+# 1) int() convert to integer  
+# 2) float() convert to float
+# 3) str() convert to string
+# 4) bool() convert to boolean
+
+
+# a= '1'
+# print("before conversion", type(a))
+# a = int(a)
+# after using int()
+# print("after conversion", type(a))
+
+# a= float(a)
+# # after using float()
+# print("after conversion", type(a))
+
+# a= bool(a)
+# # after using float()
+# print("after conversion", type(a))
+
+
+# converion of integer to string is possible in all cases
+# conversion of string to integer is possible in some cases
+# conversion to boolean is possible for all except the falsy value as it can either be True or False
+# falsy values ( False, 0, 0.0, "", [] list, {}dictionary, ()tupple)
+
+# all the above viewed are explicit conversion i.e when using the methods to do conversion
+
+# but some cases like dividing 12 by 3 the answer will be 4 according to us but according to python the answer will be 4.0
+# so there will be a implicit conversion as python will automatically convert it into float 
+
+# print(type(12/3))
+
+
+# INPUT OUTPUT
+
+# to take input from the user we just use the method input()
+
+# name = input("please enter your name: ")
+
+# to show the output we use the method print()
+
+# this is a raw string
+# print("hello : ", name) 
+
+# this is a formatted string
+# print(f"hello :  {name}") 
+
+# OPERATORS
+
+# there are diffefrent types of operators in python
+# arithemetic operators = ['+', '-', '*', '/', '//', '%', '**']
+# logical operators = ['and', 'or', 'not']
+# comparison operators = ['==', '!=', '>', '<', '>=', '<=']
+# assignment and compound assignment operators = ['=', '+=', '-=', '*=', '/=', '//=', '%=']
+
+
